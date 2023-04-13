@@ -36,10 +36,10 @@ public class uniqueChar {
         int arr[] = new int[26];
         char ans = ' ';
         for(int i=0;i<s.length();i++){
-            int val = s.charAt(i);
-            arr[val-97]++;
 
-            if(arr[val-97]==2){
+            arr[s.charAt(i)-'a']++;
+
+            if(arr[s.charAt(i)-97]==2){
                 ans = s.charAt(i);
                 break;
             }

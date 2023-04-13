@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "strStr",
+            "request": "launch",
+            "mainClass": "leetcode.strStr",
+            "projectName": "Prep_42d18422"
+        },
+        {
+            "type": "java",
+            "name": "arrayleet",
+            "request": "launch",
+            "mainClass": "Arrays.arrayleet",
+            "projectName": "Prep_42d18422"
+        },
+        {
+            "type": "java",
+            "name": "commonChar",
+            "request": "launch",
+            "mainClass": "leetcode.commonChar",
+            "projectName": "Prep_42d18422"
+        },
+        {
+            "type": "java",
             "name": "uniqueChar",
             "request": "launch",
             "mainClass": "leetcode.uniqueChar",
