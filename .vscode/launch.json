@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "increDecre",
+            "request": "launch",
+            "mainClass": "leetcode.increDecre",
+            "projectName": "Prep_42d18422"
+        },
+        {
+            "type": "java",
+            "name": "thirteenApril",
+            "request": "launch",
+            "mainClass": "leetcode.thirteenApril",
+            "projectName": "Prep_42d18422"
+        },
+        {
+            "type": "java",
+            "name": "validAna",
+            "request": "launch",
+            "mainClass": "leetcode.validAna",
+            "projectName": "Prep_42d18422"
+        },
+        {
+            "type": "java",
             "name": "strStr",
             "request": "launch",
             "mainClass": "leetcode.strStr",

@@ -1,5 +1,5 @@
 package leetcode;
-import java.util.*;
+
 
 public class uniqueChar {
     public static void main(String[] args) {
