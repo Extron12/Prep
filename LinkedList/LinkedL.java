@@ -1,7 +1,9 @@
+import javax.xml.crypto.Data;
+
 class LinkedL{
 
 
-    class Node{
+    static class Node{
         int data;
         Node next;
 
@@ -59,9 +61,18 @@ class LinkedL{
 
     public static void circular(LinkedL linkl){
         Node pres = linkl.head;
-        while (pres !=null) {
-            
+        while (pres.next !=null) {
+            pres = pres.next;
+            System.out.println("here");
         }
+        pres.next = linkl.head;
+    }
+    Node front;
+    Node end;
+    public static void enqueue(int d){
+        LinkedL queue = new LinkedL();
+        Node temp = new Node(d);
+        
     }
 
     public static void main(String[] args) {
@@ -72,7 +83,7 @@ class LinkedL{
 
         linkl.display();
 
-        rev(linkl);
+        circular(linkl);
         linkl.display();
 
     }
