@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "climbingStairs",
+            "request": "launch",
+            "mainClass": "leetcode.climbingStairs",
+            "projectName": "Prep_42d18422"
+        },
+        {
+            "type": "java",
+            "name": "twentyFourthApril",
+            "request": "launch",
+            "mainClass": "leetcode.twentyFourthApril",
+            "projectName": "Prep_42d18422"
+        },
+        {
+            "type": "java",
+            "name": "treeTest",
+            "request": "launch",
+            "mainClass": "Trees.treeTest",
+            "projectName": "Prep_42d18422"
+        },
+        {
+            "type": "java",
+            "name": "rotateArray",
+            "request": "launch",
+            "mainClass": "Top_interview.rotateArray",
+            "projectName": "Prep_42d18422"
+        },
+        {
+            "type": "java",
+            "name": "maxProfitStock",
+            "request": "launch",
+            "mainClass": "Top_interview.maxProfitStock",
+            "projectName": "Prep_42d18422"
+        },
+        {
+            "type": "java",
             "name": "LinkedL",
             "request": "launch",
             "mainClass": "LinkedL",

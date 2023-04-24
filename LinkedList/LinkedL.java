@@ -3,7 +3,7 @@ import javax.xml.crypto.Data;
 class LinkedL{
 
 
-    static class Node{
+    class Node{
         int data;
         Node next;
 
@@ -66,13 +66,6 @@ class LinkedL{
             System.out.println("here");
         }
         pres.next = linkl.head;
-    }
-    Node front;
-    Node end;
-    public static void enqueue(int d){
-        LinkedL queue = new LinkedL();
-        Node temp = new Node(d);
-        
     }
 
     public static void main(String[] args) {
