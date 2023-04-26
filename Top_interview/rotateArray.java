@@ -4,9 +4,9 @@ public class rotateArray {
     public static void main(String[] args) {
         int arr[] = {-1,-100,3,99};
         int n=2;
-        int arr1[] = rotateOne(arr, n);
+        rotate(arr, n);
         for(int j=0;j<arr.length;j++){
-            System.out.println(arr1[j]);
+            System.out.println(arr[j]);
         }
     }
     public static int[] rotateOne(int arr[],int n){
@@ -20,6 +20,20 @@ public class rotateArray {
         j++;
         }
         return arr;
-
+    }
+    public static void rotate(int arr[],int n){
+        n%=arr.length;
+        rev(arr, 0, arr.length-1);
+        rev(arr, 0, n-1);
+        rev(arr, n, arr.length-1);
+    }
+    public static void rev(int arr[],int start, int end){
+        while(start<end){
+            int temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+            start++;
+            end--;
+        }
     }
 }
