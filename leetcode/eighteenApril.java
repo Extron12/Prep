@@ -1,6 +1,4 @@
 package leetcode;
-import java.lang.*;
-import java.util.*;
 
 public class eighteenApril {
     public static void main(String[] args) {
