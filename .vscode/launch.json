@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "revString",
+            "request": "launch",
+            "mainClass": "leetcode.revString",
+            "projectName": "Prep_42d18422"
+        },
+        {
+            "type": "java",
+            "name": "moveZero",
+            "request": "launch",
+            "mainClass": "leetcode.moveZero",
+            "projectName": "Prep_42d18422"
+        },
+        {
+            "type": "java",
+            "name": "plusOne",
+            "request": "launch",
+            "mainClass": "leetcode.plusOne",
+            "projectName": "Prep_42d18422"
+        },
+        {
+            "type": "java",
+            "name": "arrayIntersection",
+            "request": "launch",
+            "mainClass": "leetcode.arrayIntersection",
+            "projectName": "Prep_42d18422"
+        },
+        {
+            "type": "java",
             "name": "twentySixApril",
             "request": "launch",
             "mainClass": "leetcode.twentySixApril",
