@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "validAna",
+            "request": "launch",
+            "mainClass": "leetcode.validAna",
+            "projectName": "Prep_72dd3846"
+        },
+        {
+            "type": "java",
+            "name": "revInteger",
+            "request": "launch",
+            "mainClass": "Top_interview.revInteger",
+            "projectName": "Prep_72dd3846"
+        },
+        {
+            "type": "java",
+            "name": "thirteenApril",
+            "request": "launch",
+            "mainClass": "leetcode.thirteenApril",
+            "projectName": "Prep_72dd3846"
+        },
+        {
+            "type": "java",
             "name": "twentySixApril",
             "request": "launch",
             "mainClass": "leetcode.twentySixApril",
