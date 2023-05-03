@@ -41,10 +41,17 @@
         },
         {
             "type": "java",
-            "name": "arrayIntersection",
+            "name": "revInteger",
             "request": "launch",
-            "mainClass": "leetcode.arrayIntersection",
-            "projectName": "Prep_42d18422"
+            "mainClass": "Top_interview.revInteger",
+            "projectName": "Prep_72dd3846"
+        },
+        {
+            "type": "java",
+            "name": "thirteenApril",
+            "request": "launch",
+            "mainClass": "leetcode.thirteenApril",
+            "projectName": "Prep_72dd3846"
         },
         {
             "type": "java",
