@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "validPali",
+            "request": "launch",
+            "mainClass": "Top_interview.validPali",
+            "projectName": "Prep_42d18422"
+        },
+        {
+            "type": "java",
+            "name": "mayThird",
+            "request": "launch",
+            "mainClass": "leetcode.mayThird",
+            "projectName": "Prep_42d18422"
+        },
+        {
+            "type": "java",
             "name": "revString",
             "request": "launch",
             "mainClass": "leetcode.revString",
