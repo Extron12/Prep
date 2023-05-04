@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "subarrayMax",
+            "request": "launch",
+            "mainClass": "leetcode.subarrayMax",
+            "projectName": "Prep_42d18422"
+        },
+        {
+            "type": "java",
+            "name": "stringInt",
+            "request": "launch",
+            "mainClass": "Top_interview.stringInt",
+            "projectName": "Prep_42d18422"
+        },
+        {
+            "type": "java",
             "name": "validPali",
             "request": "launch",
             "mainClass": "Top_interview.validPali",

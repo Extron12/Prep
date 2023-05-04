@@ -18,5 +18,8 @@ public class twoSum {
         } 
         return new int[]{};  
     }
+    public static int[] twoSumBetter(int[] nums,int target){
+        
+    }
     
 }
