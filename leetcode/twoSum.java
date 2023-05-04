@@ -1,5 +1,7 @@
 package leetcode;
 
+import java.util.HashMap;
+
 public class twoSum {
     public static void main(String[] args) {
         int arr[] = {3,3};
@@ -19,7 +21,15 @@ public class twoSum {
         return new int[]{};  
     }
     public static int[] twoSumBetter(int[] nums,int target){
-        
+        HashMap<Integer, Integer> val = new HashMap<>();
+        for(int i=0;i<nums.length;i++){
+            int comp = target - nums[i];
+            if(val.containsKey(comp)){
+                return new int[] {val.get(comp),i};
+            }
+            val.put(nums[i],i);
+        }
+        return new int[] {-1,-1};
     }
     
 }
