@@ -57,7 +57,6 @@ class LinkedL{
         linkl.head = prev;
         
     } 
-
     public static void circular(LinkedL linkl){
         Node pres = linkl.head;
         while (pres.next !=null) {
@@ -73,11 +72,45 @@ class LinkedL{
         linkl.addNode(7);
         linkl.addNode(1);
 
-        linkl.display();
+        //linkl.display();
 
-        circular(linkl);
-        linkl.display();
+        // circular(linkl);
+        // linkl.display();
+        LinkedL list1 = new LinkedL();
+        LinkedL list2 =  new LinkedL();
 
+        list1.addNode(1);
+        list1.addNode(2);
+        list1.addNode(4);
+        list2.addNode(1);
+        list2.addNode(3);
+        list2.addNode(4);
+        Node ans = mergeTwoList(list1.head,list2.head);
+        list1.head = ans;
+        list1.display();
+
+    }
+    public static Node mergeTwoList(Node list1, Node list2){
+        Node finalist;
+        if(list1 == null){
+            finalist = list2;
+            return finalist;
+        }
+        if(list2 == null){
+            finalist = list1;
+            return finalist;
+        }
+
+        if(list1.data<list2.data){
+            System.out.println("Exec");
+            finalist = list1;
+            finalist.next = mergeTwoList(list1.next, list2);
+        }
+        else {
+            finalist = list2;
+            finalist.next = mergeTwoList(list1, list2.next);
+        }
+        return finalist;
     }
 
     

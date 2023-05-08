@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "eightMay",
+            "request": "launch",
+            "mainClass": "leetcode.eightMay",
+            "projectName": "Prep_42d18422"
+        },
+        {
+            "type": "java",
+            "name": "fifthMay",
+            "request": "launch",
+            "mainClass": "leetcode.fifthMay",
+            "projectName": "Prep_42d18422"
+        },
+        {
+            "type": "java",
+            "name": "fizzbuzz",
+            "request": "launch",
+            "mainClass": "leetcode.fizzbuzz",
+            "projectName": "Prep_42d18422"
+        },
+        {
+            "type": "java",
             "name": "subarrayMax",
             "request": "launch",
             "mainClass": "leetcode.subarrayMax",
