@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ninethMay",
+            "request": "launch",
+            "mainClass": "leetcode.ninethMay",
+            "projectName": "Prep_42d18422"
+        },
+        {
+            "type": "java",
             "name": "eightMay",
             "request": "launch",
             "mainClass": "leetcode.eightMay",
