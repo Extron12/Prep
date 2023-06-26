@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "watermelon",
+            "request": "launch",
+            "mainClass": "cf.watermelon",
+            "projectName": "Prep_42d18422"
+        },
+        {
+            "type": "java",
             "name": "rotateImage",
             "request": "launch",
             "mainClass": "Top_interview.rotateImage",
